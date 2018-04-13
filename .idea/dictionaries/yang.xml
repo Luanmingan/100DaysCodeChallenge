@@ -2,6 +2,7 @@
   <dictionary name="yang">
     <words>
       <w>pomodoro</w>
+      <w>timespan</w>
     </words>
   </dictionary>
 </component>
