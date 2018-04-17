@@ -59,7 +59,7 @@ def print_header():
     print("-------------------------------------------")
     print("-------------Pomodoro Timer----------------")
     print("-------------------------------------------")
-    print()
+    print("")
 
 
 def get_user_input_time(message, default):
