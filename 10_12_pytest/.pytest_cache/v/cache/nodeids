@@ -1,0 +1,4 @@
+[
+  "test_guess.py::test_get_random_number",
+  "test_guess.py::test_guess"
+]

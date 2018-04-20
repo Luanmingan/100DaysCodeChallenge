@@ -26,7 +26,8 @@ class Game:
            'Number not in range'
            'Already guessed'
            If all good, return the int"""
-        guess = input(f'Guess a number between {START} and {END}: ')
+        guess = input('Guess a number between {} and {}: '
+                      .format(START, END))
         if not guess:
             raise ValueError('Please enter a number')
 
@@ -51,11 +52,11 @@ class Game:
            {guess} is too low
            Return a boolean"""
         if guess == self._answer:
-            print(f'{guess} is correct!')
+            print('{} is correct!'.format(guess))
             return True
         else:
             high_or_low = 'low' if guess < self._answer else 'high'
-            print(f'{guess} is too {high_or_low}')
+            print('{} is too {}'.format(guess, high_or_low))
             return False
 
     @property
@@ -75,12 +76,13 @@ class Game:
             win = self._validate_guess(guess)
             if win:
                 guess_str = self.num_guesses == 1 and "guess" or "guesses"
-                print(f'It took you {self.num_guesses} {guess_str}')
+                print('It took you {} {}'.format(self.num_guesses, guess_str))
                 self._win = True
                 break
         else:
             # else on while/for = anti-pattern? do find it useful in this case!
-            print(f'Guessed {MAX_GUESSES} times, answer was {self._answer}')
+            print('Guessed {} times, answer was {}'
+                  .format(MAX_GUESSES, self._answer))
 
 
 if __name__ == '__main__':
