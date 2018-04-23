@@ -35,20 +35,20 @@ def main():
             continue
         work_end_time = datetime.now() + work_timespan + break_timespan
         print('{} minutes is up. Time to take a break!'
-              .format(str(work_timespan.seconds/60)))
+              .format(str(work_timespan.seconds / 60)))
 
         while break_end_time > datetime.now():
             continue
         break_end_time = work_end_time + break_timespan
         print('{} minutes break is over. Now get back to work!'
-              .format(str(break_timespan.seconds/60)))
+              .format(str(break_timespan.seconds / 60)))
 
     final_break_end_time = work_end_time + final_break_timespan
 
     while work_end_time > datetime.now():
         continue
     print('{} minutes is up. Time to take a break!'
-          .format(str(work_timespan.seconds/60)))
+          .format(str(work_timespan.seconds / 60)))
 
     while final_break_end_time > datetime.now():
         continue
