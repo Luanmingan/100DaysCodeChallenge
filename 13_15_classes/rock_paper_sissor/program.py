@@ -24,7 +24,9 @@ def get_user_name():
 
 
 def build_three_rolls():
-    Rolls = namedtuple('roll', 'rock paper sissor')
+    Rolls = namedtuple('roll',
+                       'rock gun lightning devil dragon water air paper sponge
+                       'wolf tree human snake scissors fire')
     return Rolls(Rock('rock'), Paper('paper'), Sissor('sissor'))
 
 
