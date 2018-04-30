@@ -1,3 +1,8 @@
+"""
+This script does the same thing as the following linux pipeline:
+for i in ../*/*py; do grep ^import $i|sed 's/import //g' ;
+done | sort | uniq -c | sort -nr
+"""
 import os
 import re
 import fnmatch
@@ -18,13 +23,14 @@ def main():
 
 
 def gen_files(pattern):
-    """Generate files that match a given filename patter"""
+    """Generate files that match a given filename pattern."""
     for root, dirs, files in os.walk(pattern.split('/')[0]):
         for filename in fnmatch.filter(files, pattern.split('/')[2]):
             yield os.path.join(root, filename)
 
 
 def gen_lines(files):
+    """Generate lines from all files."""
     for file in files:
         with open(file, 'r') as fin:
             for line in fin.readlines():
@@ -32,13 +38,14 @@ def gen_lines(files):
 
 
 def gen_grep(pattern, lines):
-    """docstring for gen_grep"""
+    """Generate all lines that match the regex pattern."""
     for line in lines:
         if re.search(pattern, line):
             yield line
 
 
 def gen_count(lines):
+    """Generate sorted package names and counts used."""
     lines = list(lines)
     lines = [line.split()[1] for line in lines]
     c = Counter(lines)

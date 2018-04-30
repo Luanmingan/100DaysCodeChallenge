@@ -1,5 +1,4 @@
 import random
-import datetime
 
 
 NAMES = ['arnold schwarzenegger', 'alec baldwin', 'bob belderbos',
@@ -28,6 +27,7 @@ def gen_pairs():
 
 def sort_by_surname_desc():
     return sorted([name.split()[1] for name in NAMES], reverse=True)
+
 
 sorted_list = sort_by_surname_desc()
 print(sorted_list)
