@@ -19,4 +19,5 @@ print('----------permutations-----------------')
 
 for name in permutations(friends, 2):
     print(name)
-
+for n in range(2,7):
+    print(n)
