@@ -1,5 +1,0 @@
-[
-  "test_practice.py::test_get_all_jeeps",
-  "test_practice.py::test_get_first_model_each_manufacturer",
-  "test_practice.py::test_get_all_matching_models"
-]
