@@ -1,0 +1,14 @@
+[2018-05-10 17:27:01.228021] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2018-05-10 17:27:02.233664] TRACE: API: Starting search for hero
+[2018-05-10 17:27:02.267891] TRACE: API: Request finished, status code 200.
+[2018-05-10 17:27:02.268450] TRACE: API: Finished search for hero, 10 results in 0.03487515449523926 sec.
+[2018-05-10 17:27:02.268891] TRACE: App: Search successful: keyword: hero, 10 results.
+[2018-05-10 17:27:42.536858] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2018-05-10 17:27:44.441975] TRACE: API: Starting search for test
+[2018-05-10 17:27:44.483817] TRACE: API: Request finished, status code 200.
+[2018-05-10 17:27:44.484295] TRACE: API: Finished search for test, 8 results in 0.04236173629760742 sec.
+[2018-05-10 17:27:44.484622] TRACE: App: Search successful: keyword: test, 8 results.
+[2018-05-10 17:28:05.886226] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2018-05-10 17:28:06.194061] TRACE: API: Starting search for 
+[2018-05-10 17:28:06.194307] WARNING: API: No keyword supplied.
+[2018-05-10 17:28:06.194497] WARNING: App: Your must specify a search term.

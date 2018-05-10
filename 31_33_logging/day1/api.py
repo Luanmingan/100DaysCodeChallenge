@@ -1,20 +1,30 @@
 from typing import List
-
+import logbook
 import requests
 import collections
 import random
+import time
 
 Movie = collections.namedtuple('Movie', 'imdb_code, title, director, keywords, '
                                'duration, genres, rating, year, imdb_score')
 
+api_log = logbook.Logger('API')
+
 
 def find_movie_by_title(keyword: str) -> List[Movie]:
+    t0 = time.time()
+
+    api_log.trace('Starting search for {}'.format(keyword))
+
     if not keyword or not keyword.strip():
+        api_log.warn("No keyword supplied.")
         raise ValueError('Must specify a search term.')
 
     url = 'http://movie_service.talkpython.fm/api/search/{}'.format(keyword)
 
     resp = requests.get(url)
+    api_log.trace("Request finished, status code {}."
+                  .format(resp.status_code))
     resp.raise_for_status()
 
     results = resp.json()
@@ -23,6 +33,11 @@ def find_movie_by_title(keyword: str) -> List[Movie]:
     movies = []
     for r in results.get('hits'):
         movies.append(Movie(**r))
+
+    t1 = time.time()
+
+    api_log.trace('Finished search for {}, {} results in {} sec.'
+                  .format(keyword, len(movies), t1-t0))
 
     return movies
 
