@@ -1,0 +1,5 @@
+[2018-05-12 03:38:51.009566] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: movie-app.log
+[2018-05-12 03:38:53.237070] TRACE: API: Starting search for test
+[2018-05-12 03:38:53.310005] TRACE: API: Request finished, status code 200.
+[2018-05-12 03:38:53.310341] TRACE: API: Finished search for test, 8 results in 0.07330513000488281 sec.
+[2018-05-12 03:38:53.310541] TRACE: App: Search successful: keyword: test, 8 results.
