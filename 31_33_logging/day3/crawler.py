@@ -6,7 +6,7 @@ import logbook
 import sys
 
 
-app_log = logbook.Logger('Crawler')
+crawler_log = logbook.Logger('Crawler')
 
 
 class Crawler:

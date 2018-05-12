@@ -6,7 +6,7 @@ import sys
 
 def main():
     reuters = Website('Reuters', 'https://www.reuters.com', '^(/article/)',
-                       False, 'h1', 'div.body_1gnLA')
+                      False, 'h1', 'div.body_1gnLA')
     crawler = Crawler(reuters)
     crawler.crawl()
 
@@ -24,8 +24,9 @@ def init_logging(filename=None):
         "stdout mode" if filename is None else "file mode: {}".format(filename)
     )
     logger = logbook.Logger('Startup')
+    logger.notice(msg)
 
 
 if __name__ == '__main__':
-    init_logging()
+    init_logging('crawler-reuters.log')
     main()
