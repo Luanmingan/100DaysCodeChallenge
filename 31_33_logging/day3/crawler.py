@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 from content import Content
 import logbook
-import sys
 
 
 crawler_log = logbook.Logger('Crawler')
@@ -22,8 +21,14 @@ class Crawler:
 
     def get_page(self, url):
         try:
+            crawler_log.trace('Starting to request the webpage from {}'
+                              .format(url))
             r = requests.get(url)
-        except requests.exceptions.RequestException:
+            crawler_log.trace('Request finished, status code {}'
+                              .format(r.status_code))
+        except requests.exceptions.RequestException as e:
+            crawler_log.warn('Exceptions occured! Error message: {}'
+                             .format(e))
             return None
         return BeautifulSoup(r.text, 'html.parser')
 
@@ -35,6 +40,8 @@ class Crawler:
         """
         selected_elements = page_obj.select(selector)
         if selected_elements is not None and len(selected_elements) > 0:
+            crawler_log.trace('Content found using selector {}'
+                              .format(selector))
             return '\n'.join(
                 [elem.get_text() for elem in selected_elements])
         return ''
@@ -50,6 +57,8 @@ class Crawler:
             if title != '' and body != '':
                 content = Content(url, title, body)
                 content.print()
+            else:
+                crawler_log.warn('Article not found!')
 
     def crawl(self):
         """
@@ -59,10 +68,13 @@ class Crawler:
         target_pages = bs.find_all(
             'a', href=re.compile(self.site.target_pattern)
         )
-        for target_page in target_pages:
+        for i, target_page in enumerate(target_pages, 1):
+            crawler_log.trace('Starting to parse article {}'.format(i))
             target_page = target_page.attrs['href']
             if target_page not in self.visited:
                 self.visited.append(target_page)
                 if not self.site.absolute_url:
                     target_page = '{}{}'.format(self.site.url, target_page)
                 self.parse(target_page)
+            else:
+                crawler_log.trace('Duplicated article!')

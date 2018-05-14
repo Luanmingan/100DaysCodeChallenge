@@ -1,0 +1,287 @@
+[2018-05-14 14:56:49.308142] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: crawler-reuters.log
+[2018-05-14 14:56:49.308290] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com
+[2018-05-14 14:56:49.363414] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:49.446361] TRACE: Crawler: Starting to parse article 1
+[2018-05-14 14:56:49.446437] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa-protests-palestinians/israeli-military-drops-warning-leaflets-into-gaza-as-border-protests-build-idUSKCN1IF0M8
+[2018-05-14 14:56:49.505967] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:49.528955] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:49.529281] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:49.529453] TRACE: Crawler: Starting to parse article 2
+[2018-05-14 14:56:49.529534] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:49.529598] TRACE: Crawler: Starting to parse article 3
+[2018-05-14 14:56:49.529650] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa-embassy-land/u-s-jerusalem-embassy-lies-at-the-end-of-the-world-idUSKCN1IF1RE
+[2018-05-14 14:56:49.601237] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:49.625539] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:49.625888] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:49.626070] TRACE: Crawler: Starting to parse article 4
+[2018-05-14 14:56:49.626147] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-palestinians-nakba-life/the-palestinian-whose-life-spans-the-catastrophe-of-his-people-idUSKCN1IE0SW
+[2018-05-14 14:56:49.709298] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:49.732686] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:49.733026] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:49.733212] TRACE: Crawler: Starting to parse article 5
+[2018-05-14 14:56:49.733317] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-court-gambling/u-s-top-court-paves-way-for-legalized-sports-betting-idUSKCN1IF1WN
+[2018-05-14 14:56:49.807294] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:49.827192] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:49.827503] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:49.827656] TRACE: Crawler: Starting to parse article 6
+[2018-05-14 14:56:49.827775] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-china-zte/trumps-comments-on-chinas-zte-draw-security-concerns-idUSKCN1IF201
+[2018-05-14 14:56:49.883325] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:49.907662] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:49.908000] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:49.908160] TRACE: Crawler: Starting to parse article 7
+[2018-05-14 14:56:49.908259] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-tesla-crash/tesla-model-s-hits-truck-in-utah-idUSKCN1IF1O8
+[2018-05-14 14:56:49.982276] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.003891] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.004207] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.004329] TRACE: Crawler: Starting to parse article 8
+[2018-05-14 14:56:50.004425] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-newsnow-may14/monday-morning-briefing-idUSKCN1IF1QO
+[2018-05-14 14:56:50.070761] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.093367] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.093701] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.093870] TRACE: Crawler: Starting to parse article 9
+[2018-05-14 14:56:50.093980] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-china-zte-suppliers/u-s-optical-stocks-jump-as-trump-softens-on-chinas-zte-idUSKCN1IF1KY?il=0
+[2018-05-14 14:56:50.144799] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.164764] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.165081] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.165227] TRACE: Crawler: Starting to parse article 10
+[2018-05-14 14:56:50.165324] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-china-zte/trumps-comments-on-chinas-zte-draw-security-concerns-idUSKCN1IF201?il=0
+[2018-05-14 14:56:50.218851] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.242494] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.242830] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.242988] TRACE: Crawler: Starting to parse article 11
+[2018-05-14 14:56:50.243086] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-iraq-election-abadi/iraqi-pm-abadi-says-ready-to-work-with-election-winners-idUSKCN1IF216?il=0
+[2018-05-14 14:56:50.301662] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.321140] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.321445] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.321569] TRACE: Crawler: Starting to parse article 12
+[2018-05-14 14:56:50.321668] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-healthcare-drugpricing/u-s-to-consider-expanding-medicare-drug-price-negotiation-idUSKCN1IF1VI?il=0
+[2018-05-14 14:56:50.372237] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.387818] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.388134] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.388315] TRACE: Crawler: Starting to parse article 13
+[2018-05-14 14:56:50.388418] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-china-zte/in-concession-trump-will-help-chinas-zte-get-back-into-business-idUSKCN1IE0QI?il=0
+[2018-05-14 14:56:50.446594] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.469134] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.469467] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.469664] TRACE: Crawler: Starting to parse article 14
+[2018-05-14 14:56:50.469763] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa-protests-palestinians/israeli-forces-kill-dozens-in-gaza-as-u-s-embassy-opens-in-jerusalem-idUSKCN1IF0M8?il=0
+[2018-05-14 14:56:50.519247] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.541543] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.541873] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.542023] TRACE: Crawler: Starting to parse article 15
+[2018-05-14 14:56:50.542123] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa-embassy-palestinians/palestinians-u-s-embassy-in-jerusalem-creates-instability-idUSKCN1IF1ZL?il=0
+[2018-05-14 14:56:50.597182] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.615952] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.616268] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.616388] TRACE: Crawler: Starting to parse article 16
+[2018-05-14 14:56:50.616488] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-autos-takata/u-s-safety-agency-wants-meetings-with-automakers-on-takata-recall-idUSKCN1IF1ZF?il=0
+[2018-05-14 14:56:50.665481] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.685979] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.686300] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.686425] TRACE: Crawler: Starting to parse article 17
+[2018-05-14 14:56:50.686523] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa-diplomacy-france/france-tells-israel-to-show-restraint-disapproves-of-u-s-embassy-move-idUSKCN1IF1ZG?il=0
+[2018-05-14 14:56:50.750200] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.768900] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.769197] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.769312] TRACE: Crawler: Starting to parse article 18
+[2018-05-14 14:56:50.769410] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-facebook-privacy/facebook-suspends-200-apps-over-data-misuse-investigation-idUSKCN1IF18H?il=0
+[2018-05-14 14:56:50.823171] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.844997] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.845305] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.845438] TRACE: Crawler: Starting to parse article 19
+[2018-05-14 14:56:50.845551] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-brazil-politics-poll/brazil-election-poll-shows-right-winger-bolsonaro-holds-lead-idUSKCN1IF1Z3?il=0
+[2018-05-14 14:56:50.910117] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:50.931042] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:50.931356] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:50.931473] TRACE: Crawler: Starting to parse article 20
+[2018-05-14 14:56:50.931571] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-new-york-cryptocurrency-gemini-winkle/new-york-lets-winklevoss-firm-offer-new-cryptocurrency-services-idUSKCN1IF1YX?il=0
+[2018-05-14 14:56:51.010043] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.031334] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.031633] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.031766] TRACE: Crawler: Starting to parse article 21
+[2018-05-14 14:56:51.031865] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-eu-poland/eu-gives-poland-new-deadline-for-rule-of-law-deal-idUSKCN1IF1YB?il=0
+[2018-05-14 14:56:51.100847] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.122192] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.122525] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.122687] TRACE: Crawler: Starting to parse article 22
+[2018-05-14 14:56:51.122787] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-germany-military-drones/german-military-to-move-forward-with-plan-to-lease-israeli-drones-idUSKCN1IF1YK?il=0
+[2018-05-14 14:56:51.172492] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.191331] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.191636] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.191753] TRACE: Crawler: Starting to parse article 23
+[2018-05-14 14:56:51.191850] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa/united-states-opens-its-israeli-embassy-in-jerusalem-idUSKCN1IF1Q7?il=0
+[2018-05-14 14:56:51.245575] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.273835] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.274194] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.274326] TRACE: Crawler: Starting to parse article 24
+[2018-05-14 14:56:51.274423] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-poland-hungary-orban/hungary-poland-say-hold-similar-position-on-new-eu-budget-idUSKCN1IF1Y3?il=0
+[2018-05-14 14:56:51.327032] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.348400] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.348710] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.348841] TRACE: Crawler: Starting to parse article 25
+[2018-05-14 14:56:51.348938] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-xerox-m-a/xerox-abandons-planned-deal-with-fujifilm-in-victory-for-icahn-and-deason-idUSKCN1IE12Z?il=0
+[2018-05-14 14:56:51.406218] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.427558] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.427884] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.428062] TRACE: Crawler: Starting to parse article 26
+[2018-05-14 14:56:51.428179] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-stocks/wall-street-climbs-on-easing-u-s-china-trade-tensions-idUSKCN1IF1HI?il=0
+[2018-05-14 14:56:51.482335] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.505668] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.505998] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.506159] TRACE: Crawler: Starting to parse article 27
+[2018-05-14 14:56:51.506259] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-israel-usa-embassy-netanyahu/netanyahu-u-s-embassy-opening-in-jerusalem-a-great-day-idUSKCN1IF1XT?il=0
+[2018-05-14 14:56:51.558615] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.580012] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.580323] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.580443] TRACE: Crawler: Starting to parse article 28
+[2018-05-14 14:56:51.580541] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-germany-economy-imf/imf-presses-german-government-to-invest-more-to-reduce-trade-surplus-idUSKCN1IF1CE?il=0
+[2018-05-14 14:56:51.638214] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.659571] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.659888] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.660041] TRACE: Crawler: Starting to parse article 29
+[2018-05-14 14:56:51.660141] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-iran-nuclear-rouhani/rouhani-says-iran-may-remain-part-of-nuclear-accord-idUSKCN1IE0BY
+[2018-05-14 14:56:51.716109] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.738034] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.738349] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.738503] TRACE: Crawler: Starting to parse article 30
+[2018-05-14 14:56:51.738603] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-britain-eu-jobs-exclusive/exclusive-jumping-ship-brexit-hit-eu-staff-ditch-uk-passports-idUSKCN1IF0YW
+[2018-05-14 14:56:51.791124] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.814178] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.814499] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.814716] TRACE: Crawler: Starting to parse article 31
+[2018-05-14 14:56:51.814810] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:51.814897] TRACE: Crawler: Starting to parse article 32
+[2018-05-14 14:56:51.814987] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-viacom-cbs/cbs-sues-redstones-firm-over-viacom-merger-idUSKCN1IF1TO
+[2018-05-14 14:56:51.867556] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.890025] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.890353] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.890482] TRACE: Crawler: Starting to parse article 33
+[2018-05-14 14:56:51.890577] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:51.890663] TRACE: Crawler: Starting to parse article 34
+[2018-05-14 14:56:51.890753] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-facebook-privacy/facebook-suspends-200-apps-over-data-misuse-investigation-idUSKCN1IF18H
+[2018-05-14 14:56:51.960529] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:51.981194] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:51.981503] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:51.981641] TRACE: Crawler: Starting to parse article 35
+[2018-05-14 14:56:51.981737] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:51.981824] TRACE: Crawler: Starting to parse article 36
+[2018-05-14 14:56:51.981915] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-conocophillips-northsea-exclusive/exclusive-conoco-moves-to-sell-north-sea-oilfields-sources-idUSKCN1IF17F
+[2018-05-14 14:56:52.031648] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.050280] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.050588] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.050717] TRACE: Crawler: Starting to parse article 37
+[2018-05-14 14:56:52.050812] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:52.050899] TRACE: Crawler: Starting to parse article 38
+[2018-05-14 14:56:52.050989] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-stocks/wall-street-climbs-on-easing-u-s-china-trade-tensions-idUSKCN1IF1HI
+[2018-05-14 14:56:52.103036] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.125481] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.125817] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.125979] TRACE: Crawler: Starting to parse article 39
+[2018-05-14 14:56:52.126074] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:52.126162] TRACE: Crawler: Starting to parse article 40
+[2018-05-14 14:56:52.126252] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-opec-oil/with-glut-almost-gone-opec-still-cuts-more-than-oil-pact-demands-idUSKCN1IF1AQ
+[2018-05-14 14:56:52.195386] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.216748] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.217077] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.217251] TRACE: Crawler: Starting to parse article 41
+[2018-05-14 14:56:52.217348] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:52.217437] TRACE: Crawler: Starting to parse article 42
+[2018-05-14 14:56:52.217533] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-trade-nafta-autos/nafta-math-may-not-add-up-to-more-u-s-auto-jobs-idUSKCN1IF0CP
+[2018-05-14 14:56:52.270799] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.292730] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.293063] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.293238] TRACE: Crawler: Starting to parse article 43
+[2018-05-14 14:56:52.293335] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:52.293443] TRACE: Crawler: Starting to parse article 44
+[2018-05-14 14:56:52.293540] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-autos-takata/u-s-safety-agency-wants-meetings-with-automakers-on-takata-recall-idUSKCN1IF1ZF
+[2018-05-14 14:56:52.343761] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.366191] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.366526] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.366686] TRACE: Crawler: Starting to parse article 45
+[2018-05-14 14:56:52.366789] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-china-trade/china-says-will-work-with-u-s-for-positive-outcome-in-trade-talks-idUSKCN1IF0QX
+[2018-05-14 14:56:52.438178] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.458251] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.458555] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.458668] TRACE: Crawler: Starting to parse article 46
+[2018-05-14 14:56:52.458767] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-china-oil-futures-insight/chinas-night-owl-retail-investors-leverage-up-to-dominate-oil-futures-trade-idUSKCN1IF0PB
+[2018-05-14 14:56:52.514789] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.539171] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.539498] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.539675] TRACE: Crawler: Starting to parse article 47
+[2018-05-14 14:56:52.539770] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:52.539858] TRACE: Crawler: Starting to parse article 48
+[2018-05-14 14:56:52.539949] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-xerox-m-a/xerox-abandons-planned-deal-with-fujifilm-in-victory-for-icahn-and-deason-idUSKCN1IE12Z
+[2018-05-14 14:56:52.592669] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.614552] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.614880] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.615043] TRACE: Crawler: Starting to parse article 49
+[2018-05-14 14:56:52.615143] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-fed-mester/feds-mester-reiterates-support-for-gradual-u-s-rate-increases-idUSKCN1IF0MR
+[2018-05-14 14:56:52.665393] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.686422] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.686732] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.686870] TRACE: Crawler: Starting to parse article 50
+[2018-05-14 14:56:52.686969] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-iraq-election/cleric-sadr-in-surprise-comeback-seems-set-to-win-iraq-election-idUSKCN1IE091
+[2018-05-14 14:56:52.744287] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.765396] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.765738] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.765929] TRACE: Crawler: Starting to parse article 51
+[2018-05-14 14:56:52.766024] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:52.766111] TRACE: Crawler: Starting to parse article 52
+[2018-05-14 14:56:52.766201] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-iran-nuclear-usa/rhetoric-over-u-s-exit-from-iran-deal-rises-amid-threat-of-sanctions-idUSKCN1IE0M9
+[2018-05-14 14:56:52.827804] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.851483] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.851815] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.851980] TRACE: Crawler: Starting to parse article 53
+[2018-05-14 14:56:52.852082] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-northkorea-nuclear-un/closing-north-korea-nuclear-test-site-an-important-step-u-n-chief-says-idUSKCN1IF1WP
+[2018-05-14 14:56:52.919071] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:52.938179] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:52.938487] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:52.938615] TRACE: Crawler: Starting to parse article 54
+[2018-05-14 14:56:52.938729] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-cyber-encryption/popular-encrypted-email-standards-are-unsafe-european-researchers-idUSKCN1IF1LL
+[2018-05-14 14:56:52.993745] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.014134] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.014443] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.014582] TRACE: Crawler: Starting to parse article 55
+[2018-05-14 14:56:53.014678] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:53.014765] TRACE: Crawler: Starting to parse article 56
+[2018-05-14 14:56:53.014856] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-new-york-cryptocurrency-gemini-winkle/new-york-lets-winklevoss-firm-offer-new-cryptocurrency-services-idUSKCN1IF1YX
+[2018-05-14 14:56:53.065006] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.084158] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.084454] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.084568] TRACE: Crawler: Starting to parse article 57
+[2018-05-14 14:56:53.084666] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-tesla-china/tesla-registers-shanghai-electric-car-firm-ahead-of-ownership-rule-change-idUSKCN1IF181
+[2018-05-14 14:56:53.139782] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.162713] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.163047] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.163189] TRACE: Crawler: Starting to parse article 58
+[2018-05-14 14:56:53.163291] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-trump-congress/trump-says-wants-a-government-funding-deal-before-august-break-idUSKCN1ID0XG
+[2018-05-14 14:56:53.218245] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.237758] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.238065] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.238188] TRACE: Crawler: Starting to parse article 59
+[2018-05-14 14:56:53.238294] TRACE: Crawler: Duplicated article!
+[2018-05-14 14:56:53.238383] TRACE: Crawler: Starting to parse article 60
+[2018-05-14 14:56:53.238484] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-healthcare-drugpricing/u-s-to-consider-expanding-medicare-drug-price-negotiation-idUSKCN1IF1VI
+[2018-05-14 14:56:53.293021] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.313346] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.313659] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.313791] TRACE: Crawler: Starting to parse article 61
+[2018-05-14 14:56:53.313889] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-usa-whitehouse-mccain/top-republican-says-white-house-should-condemn-aid-who-mocked-mccain-idUSKCN1ID0YJ
+[2018-05-14 14:56:53.402895] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.424507] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.424814] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.424960] TRACE: Crawler: Starting to parse article 62
+[2018-05-14 14:56:53.425061] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-medreleaf-m-a-aurora-cannabis/aurora-scores-medreleaf-for-2-5-billion-in-pot-mega-merger-idUSKCN1IF16U
+[2018-05-14 14:56:53.481906] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.502726] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.503039] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.503167] TRACE: Crawler: Starting to parse article 63
+[2018-05-14 14:56:53.503267] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-russia-o-key-group/russias-okey-may-consider-ipo-for-discount-unit-ceo-idUSKCN1IF1TH
+[2018-05-14 14:56:53.553728] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.571800] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.572107] TRACE: Crawler: Content found using selector div.body_1gnLA
+[2018-05-14 14:56:53.572226] TRACE: Crawler: Starting to parse article 64
+[2018-05-14 14:56:53.572326] TRACE: Crawler: Starting to request the webpage from https://www.reuters.com/article/us-sears-holding-corp-divestiture/sears-forms-committee-for-sale-of-kenmore-home-improvement-unit-idUSKCN1IF1RC
+[2018-05-14 14:56:53.622117] TRACE: Crawler: Request finished, status code 200
+[2018-05-14 14:56:53.641989] TRACE: Crawler: Content found using selector h1
+[2018-05-14 14:56:53.642304] TRACE: Crawler: Content found using selector div.body_1gnLA
