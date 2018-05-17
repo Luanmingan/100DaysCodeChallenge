@@ -12,8 +12,7 @@ Record = namedtuple('Record',
 def init():
     filename = 'drinks.csv'
     folder = 'data'
-    directory = os.getcwd()
-    filepath = os.path.join(directory, folder, filename)
+    filepath = os.path.abspath(os.path.join(folder, filename))
 
     with open(filepath) as fin:
         reader = csv.DictReader(fin)
