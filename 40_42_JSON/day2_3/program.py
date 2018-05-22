@@ -31,7 +31,7 @@ def search_event_loop():
             print('Error: Search text is required')
         except requests.exceptions.ConnectionError as ce:
             print('The internet is down.')
-        except requests.exceptions.HTTPError as x:
+        except Exception as x:
             print('Unexpected error, Details: {}'.format(x))
 
     print('exiting...')
