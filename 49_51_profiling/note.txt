@@ -1,0 +1,2 @@
+command line to run profiling:
+    python -m cProfile -s cumtime program.py
