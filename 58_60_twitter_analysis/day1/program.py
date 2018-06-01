@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from wordcloud import WordCloud, STOPWORDS
 
-from twitter_api import Twitter
+from api import Twitter
 
 
 account_name = "Yang55109999"
