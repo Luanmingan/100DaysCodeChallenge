@@ -2,7 +2,6 @@ from collections import namedtuple
 import os
 import tweepy
 
-
 Tweet = namedtuple('Tweet', 'id text created likes rts')
 
 TWITTER_KEY = os.environ['TWITTER_KEY']
