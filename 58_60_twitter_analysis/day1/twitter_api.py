@@ -29,7 +29,3 @@ def get_tweets():
                             exclude_replies=False, include_rts=True).items():
         yield Tweet(tw.id, tw.text, tw.created_at, tw.favorite_count,
                     tw.retweet_count)
-
-for tweet in get_tweets():
-    print(tweet)
-
