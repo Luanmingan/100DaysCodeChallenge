@@ -5,8 +5,10 @@ def main():
     wechat = Wechat()
     wechat.login(auto=True)
 
-    friends = wechat.get_friends()
-    [print(friend.nickname) for friend in friends]
+    wechat.plot_city()
+    wechat.plot_gender()
+    wechat.plot_province()
+    wechat.word_cloud()
 
 
 if __name__ == '__main__':

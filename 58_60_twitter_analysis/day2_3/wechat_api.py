@@ -2,13 +2,18 @@ import itchat
 from collections import namedtuple, Counter
 from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
+import re
+import jieba
+import numpy as np
+from wordcloud import WordCloud
+from PIL import Image
 
 
 Record = namedtuple(
     'Record',
     'nickname sex province city signature'
 )
-font_path = '/home/yang/.local/share/fonts/wqy-zenhei.ttc'
+font_path = '/Library/Fonts/songti.ttc'
 prop = FontProperties(fname=font_path)
 plt.figure(figsize=(20, 20))
 
@@ -29,12 +34,15 @@ class Wechat():
         return [self._parse_row(friend) for friend in self.friends]
 
     def _parse_row(self, friend):
+        signature = friend.get('Signature').strip()
+        r = re.compile(r'<span[\s\w="<>/"]+</span>')
+        signature = r.sub("", signature)
         record = Record(
             nickname=friend.get('NickName'),
             sex=friend.get('Sex'),
             province=friend.get('Province'),
             city=friend.get('City'),
-            signature=friend.get('Signature')
+            signature=signature
         )
         return record
 
@@ -93,4 +101,21 @@ class Wechat():
         plt.xlabel('City')
         plt.ylabel('Counts')
         plt.title('City Distribution')
+        plt.show()
+
+    def word_cloud(self):
+        friends = self.get_friends()
+        signatures = [friend.signature for friend in friends
+                      if friend.signature]
+        text = ''.join(signatures)
+        wordlist = jieba.cut(text, cut_all=True)
+        word_space_split = " ".join(wordlist)
+
+        coloring = np.array(Image.open("us.jpg"))
+        wc = WordCloud(background_color="white", max_words=20000, mask=coloring,
+                       max_font_size=30, random_state=42, scale=1,
+                       font_path=font_path).generate(word_space_split)
+
+        plt.imshow(wc, interpolation="bilinear")
+        plt.axis('off')
         plt.show()
