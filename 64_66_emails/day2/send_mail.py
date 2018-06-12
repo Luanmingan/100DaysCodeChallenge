@@ -2,7 +2,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
 
-from gmail import attach_to_gmail
+from gmail_decorator import attach_to_gmail
 
 
 PASSWORD = os.environ['GMAIL_APPLICATION_PASSWORD']
