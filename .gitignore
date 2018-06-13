@@ -6,4 +6,4 @@ __pycache__
 .env
 QR.png
 wechat_api.pyc
-
+geckodriver.log
