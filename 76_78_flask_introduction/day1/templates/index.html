@@ -1,0 +1,15 @@
+<h1>Favorite Beers</h1>
+<div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Beer of Choice</th>
+        </tr>
+    {% for name, beer in favorite_beer.items() %}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{beer}}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</div>
