@@ -1,7 +1,11 @@
 import datetime
-from model_base import ModelBase
 import sqlalchemy
 
+import os
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+
+from models.model_base import ModelBase
 
 class Roll(ModelBase):
     __tablename__ = 'rolls'
